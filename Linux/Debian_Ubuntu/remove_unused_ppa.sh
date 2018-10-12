@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #
-# Cleanup yout apt packages (Source: https://askubuntu.com/a/675109)
+# Cleanup your unused ppas (Source: https://askubuntu.com/a/675109)
 # Usage: ./remove_unused_ppa.sh [--delete Delete all unused apt repositories]
 #
 
