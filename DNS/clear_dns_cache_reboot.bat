@@ -1,5 +1,8 @@
-#
-# Script for clearing dns cache and rebooting PC
-#
+REM
+REM Script for clearing dns cache and rebooting PC
+REM
+echo "DNS-Cache is cleared ..."
 ipconfig /flushdns
-shutdown /r /t 0
+
+echo "Reboot in 3 seconds ..."
+shutdown /r /t 3
