@@ -47,6 +47,7 @@ function processFile(file) {
             index[currentPath.replace("/", "")] = [];
         } else {
             const indexName = currentPath.substring(0, currentPath.lastIndexOf("/")).replace("/", "");
+            console.log("Indexing ", currentPath);
             index[indexName].push(currentPath);
         }
     });
@@ -79,4 +80,4 @@ function deleteIndexFile() {
     }
 }
 
-recursive(sourceDirectory, [ sourceDirectory + "*/.*", sourceDirectory + "/doc_generate/*", sourceDirectory + "/doc_generate/.gitignore",  "LICENSE", "README.md" ] , processFiles);
+recursive(sourceDirectory, [ indexFileName, sourceDirectory + "/build_index.sh",  sourceDirectory + "*/.*", sourceDirectory + "/doc_generate/*", sourceDirectory + "/doc_generate/.gitignore",  "LICENSE", "README.md" ] , processFiles);

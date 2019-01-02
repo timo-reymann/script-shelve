@@ -25,8 +25,3 @@
 # Screen
 - [kill_all_detached.sh](./Screen/kill_all_detached.sh)
 
-# Test
-
-# Test/Test
-- [SomeFile.sh](./Test/Test/SomeFile.sh)
-
