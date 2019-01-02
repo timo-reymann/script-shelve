@@ -6,8 +6,10 @@
 
 # DNS
 - [clear_dns_cache_reboot.bat](./DNS/clear_dns_cache_reboot.bat)
+- [clear_dns_cache.sh](./DNS/clear_dns_cache.sh)
 
 # Docker
+- [cleanup_images.sh](./Docker/cleanup_images.sh)
 - [clear_containers.sh](./Docker/clear_containers.sh)
 
 # Java
