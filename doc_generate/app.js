@@ -43,8 +43,12 @@ function processFile(file) {
     fileParts.forEach(part => {
         currentPath += "/" + part;
 
+        let l_currentPathIndex = currentPath.replace("/", "");
+
         if(isDir(sourceDirectory + "/" + currentPath)) {
-            index[currentPath.replace("/", "")] = [];
+           if(!index[l_currentPathIndex]) {
+               index[l_currentPathIndex] = [];
+           }
         } else {
             const indexName = currentPath.substring(0, currentPath.lastIndexOf("/")).replace("/", "");
             console.log("Indexing ", currentPath);
@@ -61,6 +65,7 @@ function processIndex(index) {
 
         index[key].sortIgnoreCase().forEach(entry => {
             const fileName = entry.substring(entry.lastIndexOf("/")).replace("/","")
+            console.log("Writing to index", entry);
             writeToIndexFile(`- [${fileName}](.${entry})\n`);
         });
 
