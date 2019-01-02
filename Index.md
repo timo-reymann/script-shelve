@@ -22,6 +22,6 @@
 # ProgramList
 - [export_installed_programs.bat](./ProgramList/export_installed_programs.bat)
 
-# Screen
-- [kill_all_detached.sh](./Screen/kill_all_detached.sh)
+# screen
+- [kill_all_detached.sh](./screen/kill_all_detached.sh)
 
