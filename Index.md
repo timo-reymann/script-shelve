@@ -15,6 +15,9 @@
 # Fail2Ban
 - [list_bans.sh](./Fail2Ban/list_bans.sh)
 
+# Git
+- [purgeLocalTagsWithNoRemote.sh](./Git/purgeLocalTagsWithNoRemote.sh)
+
 # Java
 - [set_java_version.sh](./Java/set_java_version.sh)
 
