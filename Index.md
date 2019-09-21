@@ -16,7 +16,8 @@
 - [list_bans.sh](./Fail2Ban/list_bans.sh)
 
 # Git
-- [purgeLocalTagsWithNoRemote.sh](./Git/purgeLocalTagsWithNoRemote.sh)
+- [purge_local_tags_with_no_remote.sh](./Git/purge_local_tags_with_no_remote.sh)
+- [remove_latest_local_commit.sh](./Git/remove_latest_local_commit.sh)
 
 # Java
 - [set_java_version.sh](./Java/set_java_version.sh)
