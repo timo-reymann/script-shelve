@@ -1,9 +1,0 @@
-{
-  "name": "doc_generate",
-  "version": "1.0.0",
-  "description": "Helper for generating index markdown files",
-  "main": "app.js",
-  "dependencies": {
-    "recursive-readdir": "^2.2.2"
-  }
-}
