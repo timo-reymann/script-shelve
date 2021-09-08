@@ -6,7 +6,8 @@ import os.path as path
 IGNORED=[
     "doc_generate",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "Index.md"
 ]
 
 lines = []
@@ -14,7 +15,7 @@ lines = []
 lines.append("Index")
 lines.append("===")
 
-for file in sorted(glob.iglob("**/**", recursive=True)):
+for file in sorted(glob.iglob("**", recursive=True)):
     ignored = False
     for i in IGNORED:
         if file.startswith(i):
