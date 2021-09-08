@@ -1,4 +1,4 @@
-# 
+#
 # This script stops the spooler service of windows, clears all printer jobs and restarts the service afterwards
 #
 echo "Stop pooler service ..."

@@ -1,57 +1,57 @@
 Index
 ===
-## Docker
- - [Docker/cleanup_images](Docker/cleanup_images)
- - [Docker/clear_containers](Docker/clear_containers)
-## ProgramList
- - [ProgramList/export_installed_programs.bat](ProgramList/export_installed_programs.bat)
-## Printer
- - [Printer/clear_printer_queue.bat](Printer/clear_printer_queue.bat)
-## Fail2Ban
- - [Fail2Ban/list_bans](Fail2Ban/list_bans)
-## NanoGNU
- - [NanoGNU/nano_yaml_configuration](NanoGNU/nano_yaml_configuration)
-## Java
- - [Java/set_java_version](Java/set_java_version)
-## jetbrains
- - [jetbrains/query_ide_versions_for_verifier.py](jetbrains/query_ide_versions_for_verifier.py)
  - [Index.md](Index.md)
 ## apt
- - [apt/remove_unused_ppa](apt/remove_unused_ppa)
-## screen
- - [screen/kill_all_detached](screen/kill_all_detached)
-## Cinnamon
- - [Cinnamon/restart_cinnamon](Cinnamon/restart_cinnamon)
-## DNS
- - [DNS/clear_dns_cache](DNS/clear_dns_cache)
- - [DNS/clear_dns_cache_reboot.bat](DNS/clear_dns_cache_reboot.bat)
-## Git
- - [Git/remove_latest_local_commit](Git/remove_latest_local_commit)
- - [Git/purge_local_tags_with_no_remote](Git/purge_local_tags_with_no_remote)
-## Docker
- - [Docker/cleanup_images](Docker/cleanup_images)
- - [Docker/clear_containers](Docker/clear_containers)
-## ProgramList
- - [ProgramList/export_installed_programs.bat](ProgramList/export_installed_programs.bat)
-## Printer
- - [Printer/clear_printer_queue.bat](Printer/clear_printer_queue.bat)
-## Fail2Ban
- - [Fail2Ban/list_bans](Fail2Ban/list_bans)
-## NanoGNU
- - [NanoGNU/nano_yaml_configuration](NanoGNU/nano_yaml_configuration)
-## Java
- - [Java/set_java_version](Java/set_java_version)
-## jetbrains
- - [jetbrains/query_ide_versions_for_verifier.py](jetbrains/query_ide_versions_for_verifier.py)
 ## apt
  - [apt/remove_unused_ppa](apt/remove_unused_ppa)
+ - [apt/remove_unused_ppa](apt/remove_unused_ppa)
+## cinnamon
+## cinnamon
+ - [cinnamon/restart_cinnamon](cinnamon/restart_cinnamon)
+ - [cinnamon/restart_cinnamon](cinnamon/restart_cinnamon)
+## dns
+## dns
+ - [dns/clear_dns_cache](dns/clear_dns_cache)
+ - [dns/clear_dns_cache](dns/clear_dns_cache)
+ - [dns/clear_dns_cache_reboot.bat](dns/clear_dns_cache_reboot.bat)
+ - [dns/clear_dns_cache_reboot.bat](dns/clear_dns_cache_reboot.bat)
+## docker
+## docker
+ - [docker/cleanup_images](docker/cleanup_images)
+ - [docker/cleanup_images](docker/cleanup_images)
+ - [docker/clear_containers](docker/clear_containers)
+ - [docker/clear_containers](docker/clear_containers)
+## fail2ban
+## fail2ban
+ - [fail2ban/list_bans](fail2ban/list_bans)
+ - [fail2ban/list_bans](fail2ban/list_bans)
+## git
+## git
+ - [git/purge_local_tags_with_no_remote](git/purge_local_tags_with_no_remote)
+ - [git/purge_local_tags_with_no_remote](git/purge_local_tags_with_no_remote)
+ - [git/remove_latest_local_commit](git/remove_latest_local_commit)
+ - [git/remove_latest_local_commit](git/remove_latest_local_commit)
+## java
+## java
+ - [java/set_java_version](java/set_java_version)
+ - [java/set_java_version](java/set_java_version)
+## jetbrains
+## jetbrains
+ - [jetbrains/query_ide_versions_for_verifier.py](jetbrains/query_ide_versions_for_verifier.py)
+ - [jetbrains/query_ide_versions_for_verifier.py](jetbrains/query_ide_versions_for_verifier.py)
+## nano
+## nano
+ - [nano/nano_yaml_configuration](nano/nano_yaml_configuration)
+ - [nano/nano_yaml_configuration](nano/nano_yaml_configuration)
+## printer
+## printer
+ - [printer/clear_printer_queue.bat](printer/clear_printer_queue.bat)
+ - [printer/clear_printer_queue.bat](printer/clear_printer_queue.bat)
+## program-list
+## program-list
+ - [program-list/export_installed_programs.bat](program-list/export_installed_programs.bat)
+ - [program-list/export_installed_programs.bat](program-list/export_installed_programs.bat)
+## screen
 ## screen
  - [screen/kill_all_detached](screen/kill_all_detached)
-## Cinnamon
- - [Cinnamon/restart_cinnamon](Cinnamon/restart_cinnamon)
-## DNS
- - [DNS/clear_dns_cache](DNS/clear_dns_cache)
- - [DNS/clear_dns_cache_reboot.bat](DNS/clear_dns_cache_reboot.bat)
-## Git
- - [Git/remove_latest_local_commit](Git/remove_latest_local_commit)
- - [Git/purge_local_tags_with_no_remote](Git/purge_local_tags_with_no_remote)
+ - [screen/kill_all_detached](screen/kill_all_detached)

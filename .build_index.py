@@ -14,7 +14,7 @@ lines = []
 lines.append("Index")
 lines.append("===")
 
-for file in glob.iglob("**/**", recursive=True):
+for file in sorted(glob.iglob("**/**", recursive=True)):
     ignored = False
     for i in IGNORED:
         if file.startswith(i):
