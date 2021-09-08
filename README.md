@@ -14,7 +14,7 @@ To install a script-shelve command with bash autocomplete run the
 following in the checked out git repo:
 
 ```
-sudo sh -c 'chmod +x .tool/*.sh && ln -s $PWD/.tool/launcher.sh /usr/local/bin/script-shelve && ln -s $PWD/.tool/completion.sh /etc/bash_completion.d/script-shelve
+ln -s $PWD/.tool/launcher.sh /usr/local/bin/script-shelve && ln -s $PWD/.tool/completion.sh /etc/bash_completion.d/script-shelve
 ```
 
 ## Wanna contribute?

@@ -1,5 +1,5 @@
 #!/bin/bash
-DIR=$(dirname $(readlink $0))
+DIR=$(dirname $0)
 DIR=$(cd $DIR && cd .. && pwd)
 
 if [ -z "$1" ]
@@ -8,4 +8,10 @@ then
     exit 2
 fi
 
-source $DIR/$1
+if [[ -x "$file" ]]
+then
+    $DIR/$1
+else
+    source $DIR/$1
+fi
+
