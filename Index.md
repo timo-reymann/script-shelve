@@ -22,6 +22,9 @@
 # Java
 - [set_java_version.sh](./Java/set_java_version.sh)
 
+# jetbrains
+- [query_ide_versions_for_verifier.py](./jetbrains/query_ide_versions_for_verifier.py)
+
 # NanoGNU
 - [nano_yaml_configuration.sh](./NanoGNU/nano_yaml_configuration.sh)
 
